@@ -43,7 +43,7 @@ def handle_message(event):
                 actions = [
                     MessageAction(
                         label = 'yes',
-                        text = 'coffee is goooood'),
+                        text = 'confirm'),
                     MessageAction(
                         label = 'no',
                         text = 'coffee is complicated')]
