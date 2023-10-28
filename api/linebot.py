@@ -81,27 +81,28 @@ def handle_message(event):
                 columns = [
                     #第一個
                     CarouselColumn(
-                        thumbnail_image_url = 'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg',
+                        thumbnail_image_url = 'https://img0.pclady.com.cn/pclady/1203/25/803439_155.jpg',
                         title = 'this is menu1',
                         text = 'menu1',
                         actions = [
                             MessageAction(
                                 label = '咖啡有什麼好處',
-                                text = '讓人有精神'),
+                                text = '好ㄟ'),
                             URIAction(
-                                label = '伯朗咖啡',
+                                label = '你好',
                                 uri = 'https://www.mrbrown.com.tw/')]),
                     #第二個
                     CarouselColumn(
-                        thumbnail_image_url = 'https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg',
+                        thumbnail_image_url = 'http://p4.itc.cn/q_70/images03/20201220/c5ebb30b8bcc498dbebee35ae46b9323.jpeg',
                         title = 'this is menu2',
                         text = 'menu2',
                         actions = [
                             MessageAction(
-                                label = '咖啡有什麼好處',
-                                text = '讓人有精神'),
+                                label = '咖啡ㄚㄚㄚ 阿  ',
+                                text = '喔耶'),
                             URIAction(
-                                label = '伯朗咖啡',
+                                label = '咖啡',
+                                text = ':)'
                                 uri = 'https://www.mrbrown.com.tw/')])
                 ])
             )
