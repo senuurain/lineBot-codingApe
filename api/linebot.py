@@ -43,7 +43,7 @@ def handle_message(event):
                 actions = [
                     MessageAction(
                         label = 'yes',
-                        text = 'confirm'),
+                        text = 'coffee is gooooood'),
                     MessageAction(
                         label = 'no',
                         text = 'coffee is complicated')]
@@ -57,7 +57,7 @@ def handle_message(event):
         buttons_template = TemplateSendMessage(
             alt_text = 'buttons template',
             template = ButtonsTemplate(
-                thumbnail_image_url='https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg',
+                thumbnail_image_url='https://www.pinterest.com/pin/70437488028097/.jpg',
                 title = 'Brown Cafe',
                 text = 'Enjoy your coffee',
                 actions = [
