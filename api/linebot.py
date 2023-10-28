@@ -101,7 +101,7 @@ def handle_message(event):
                                 label = '咖啡ㄚㄚㄚ 阿  ',
                                 text = '喔耶'),
                             URIAction(
-                                label = '咖啡',
+                                label = '咖啡  ',
                                 text = ':)'
                                 uri = 'https://www.mrbrown.com.tw/')])
                 ])
