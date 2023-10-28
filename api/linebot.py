@@ -39,14 +39,14 @@ def handle_message(event):
         confirm_template = TemplateSendMessage(
             alt_text = 'han..leeknow',
             template = ConfirmTemplate(
-                text = 'drink coffee?',
+                text = 'do u want a cup of coffee?',
                 actions = [
                     MessageAction(
                         label = 'yes',
-                        text = 'yes'),
+                        text = 'coffee is goooood'),
                     MessageAction(
                         label = 'no',
-                        text = 'no')]
+                        text = 'coffee is complicated')]
                 )
             )
         line_bot_api.reply_message(event.reply_token, confirm_template)
