@@ -133,4 +133,4 @@ def handle_message(event):
         line_bot_api.reply_message(event.reply_token, image_carousel_template)
 
 if __name__ == "__main__":
-    app.run().55558008
+    app.run()
