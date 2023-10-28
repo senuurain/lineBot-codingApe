@@ -57,16 +57,16 @@ def handle_message(event):
         buttons_template = TemplateSendMessage(
             alt_text = 'buttons template',
             template = ButtonsTemplate(
-                thumbnail_image_url='https://i02piccdn.sogoucdn.com/00dd071354bde504'
+                thumbnail_image_url='http://photocdn.sohu.com/20150522/mp15984864_1432224874675_2.jpeg'
                 title = 'Brown Cafe',
                 text = 'Enjoy your coffee',
                 actions = [
                     MessageAction(
-                        label = '咖啡有什麼好處',
-                        text = '讓人有精神'),
+                        label = '這是什麼',
+                        text = '問題不大'),
                     URIAction(
-                        label = '伯朗咖啡',
-                        uri = 'https://www.mrbrown.com.tw/')]
+                        label = '矮袋鼠',
+                        uri = 'https://pic.sogou.com/pics?query=%E7%9F%AE%E8%A2%8B%E9%BC%A0&w=05009900')]
                 )
             )
 
