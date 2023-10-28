@@ -57,7 +57,7 @@ def handle_message(event):
         buttons_template = TemplateSendMessage(
             alt_text = 'buttons template',
             template = ButtonsTemplate(
-                thumbnail_image_url='https://www.pinterest.com/pin/70437488028097/.jpg',
+                thumbnail_image_url='https://i02piccdn.sogoucdn.com/00dd071354bde504'
                 title = 'Brown Cafe',
                 text = 'Enjoy your coffee',
                 actions = [
